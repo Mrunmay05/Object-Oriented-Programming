@@ -27,9 +27,9 @@ class A{
 
 class B : public A{
     public:
-    void print(){
-        cout << "B is greatest" << endl;
-    }
+    // void print(){
+    //     cout << "B is greatest" << endl;
+    // }
 };
 
 class Animal{
@@ -49,6 +49,9 @@ class Dog : public Animal{
 int main(){
     A a;
     a.print();
+
+    B b;
+    b.print();
 
     Dog d;
     d.speak();
