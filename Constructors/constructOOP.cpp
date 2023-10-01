@@ -13,7 +13,7 @@ public:
     static can be used to create a data member that belongs to class.
     We dont need to create an object to access a static data member.
     As the variables declared as static are initialized only once
-    as they are allocated space in separate static storage so,
+    they are allocated space in separate static storage so,
     the static variables in a class are shared by the objects. 
     */
     
@@ -31,7 +31,7 @@ public:
 
     //PARAMETRIZED CONSTRUCTOR
     /*
-    THIS keyword   : the this keyword stores the address of the 
+    THIS keyword : the this keyword stores the address of the 
     current created object. It is basically a pointer
     to the current object
     */
@@ -53,7 +53,7 @@ public:
     }
     
     /*
-    COPY constructor: this constructor is used when try to create a
+    COPY constructor: this constructor is used when we try to create a
     copy of our object.
     When we pass an object as a parameter we always pass it by reference.
     Why pass by reference? Because if we pass by value then the temp actually
@@ -93,7 +93,7 @@ public:
     }
 
     /*
-    Just like static members, functions too dont need object creation to access them.
+    Just like static members, static functions too dont need object creation to access them.
     Static member functions are allowed to access only the static data members or 
     other static member functions.
     */

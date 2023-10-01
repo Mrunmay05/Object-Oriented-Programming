@@ -28,7 +28,6 @@ public:
     void setHealth(int h){
         health = h;
     }
-
 };
 int main()
 {
@@ -58,10 +57,6 @@ int main()
 
     cout << "health is: " << (*b).getHealth() << endl;
     cout << "name is :" << b -> getName() << endl;
-
-    
-
-
 
     cout<<sizeof(b);
 

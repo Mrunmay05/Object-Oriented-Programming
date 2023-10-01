@@ -13,21 +13,21 @@ and inner details are hidden. Only thing is that object can be called and used. 
 
 Role of Access Specifiers in Encapsulation
 Access specifiers plays an important role in implementing encapsulation in C++.
-The process of implementing encapsulation can be sub-divided into two steps:
+The process of implementing encapsulation can  be sub-divided into two steps:
         1. The data members should be labeled as private using the private access specifiers.
         2. The member function which manipulates the data members should be labeled as public 
            using the public access specifier.
 
 How Encapsulation is achieved in a class
         1. Make all the data members private.
-        2. Create public setter and getter functions for each data member in such a way that the set function set the value of data member and get function get the value of data member.
+        2. Create public setter and getter functions for each data member in such a way that
+        the set function set the value of data member and get function get the value of data member.
 
 
 Advantages: 
         1. Data security
         2. Makes code manageable
         3. Prevents unauthorized access of data members
-
 */
 class Student{
     private:
@@ -36,7 +36,8 @@ class Student{
     int height;
 
     public:
-    /*only members or functions inside this class will be able to 
+    /*
+    only members or functions inside this class will be able to 
     access all the private members.
     */
 
