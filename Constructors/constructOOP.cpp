@@ -148,7 +148,7 @@ int main()
    e.print();
 
    Hero *f = new Hero;
-   //for dynamic objects such as this, destructor needs to be called manually/
+   //for dynamic objects such as this, destructor needs to be called manually
    delete f;
 
    /*

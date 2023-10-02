@@ -7,8 +7,9 @@ RUNTIME POLYMORPHISM :
 runtime polymorphism.
 
 METHOD OVERRIDING:
-its a feature that allows you to reduce the parent class method in child class based on its
-requirement.
+Method Overriding is a feature of C++ that allows a subclass or child class to
+provide a specific implementation of a method that is already provided by its 
+parent class or one of its parent classes. This feature is used to achieve runtime polymorphism.
 
 Rules for Method Overriding:
 1. Method of parent class and child class should have the same name.
@@ -18,19 +19,6 @@ parameters.
 
 */
 
-class A{
-    public:
-    void print(){
-        cout << "A is greatest" << endl;
-    }
-};
-
-class B : public A{
-    public:
-    // void print(){
-    //     cout << "B is greatest" << endl;
-    // }
-};
 
 class Animal{
     public:
@@ -47,12 +35,6 @@ class Dog : public Animal{
 };
 
 int main(){
-    A a;
-    a.print();
-
-    B b;
-    b.print();
-
     Dog d;
     d.speak();
 }

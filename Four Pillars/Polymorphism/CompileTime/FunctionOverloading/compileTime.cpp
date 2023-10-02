@@ -18,7 +18,7 @@ Types of Polymorphism:
 
 
 Compile Time Polymorphism:
- -> Achieved by function overloading and operator overloading. 
+ -> Achieved by function overloading and operator overloading.
  1. Function Overloading:
             - When there are multiple functions with the same name but
               different parameters, then the functions are said to be overloaded, hence this is known as Function Overloading.
@@ -52,15 +52,8 @@ class A{
         cout << "Hello " << name <<" "<< ch << endl;
     }
 
-    //Example for operator overloading for +
-    void operator+ (A &a1){
-      int value1 = this -> a;
-      int value = a1.a;
-      cout << "output is :" << value - value1 << endl;
-    }
-
 };
 int main(){
     A a;
-    a.sayHello("A");
+    a.sayHello("xyz", 'A');
 }

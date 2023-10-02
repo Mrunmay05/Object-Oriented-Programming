@@ -23,11 +23,14 @@ How Encapsulation is achieved in a class
         2. Create public setter and getter functions for each data member in such a way that
         the set function set the value of data member and get function get the value of data member.
 
-
 Advantages: 
         1. Data security
         2. Makes code manageable
         3. Prevents unauthorized access of data members
+
+Disadvantages:
+        1. Can lead to increased complexity as more getter and setter methods need to be implemented.
+        2. Can lead to slower execution as accessing a data member is indirect.
 */
 class Student{
     private:
